@@ -9,4 +9,13 @@ public class MyController {
     public String showFirstView(){
         return "first-view";
     }
+    @RequestMapping("askName")
+    public String askNamedetails()
+    {
+        return "ask-name-view";
+    }
+    @RequestMapping("showDetails")
+    public String showName(){
+        return "show-name-details-view";
+    }
 }
